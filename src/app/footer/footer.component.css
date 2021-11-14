@@ -1,0 +1,52 @@
+.footer-background {
+	background: linear-gradient(90deg, #4a83d8 70%, #3575d3 30%);
+	min-height: 550px;
+}
+
+.footer-links {
+	width: 70%;
+	float: left;
+}
+.footer-links .list-group-item {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+}
+.parent a {
+	font-size: 18px;
+}
+.list-group-item a {
+	color: #fff;
+}
+.social {
+	width: 30%;
+	float: right;
+	margin-right: -200px;
+	color: #fff;
+}
+.logo {
+	text-decoration: none;
+	color: #fff !important;
+}
+
+.social h4 a {
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	flex-direction: row;
+}
+
+ul.social-icons {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.social-icons a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	padding-right: 15px;
+}

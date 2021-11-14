@@ -1,0 +1,159 @@
+:host {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+		"Segoe UI Symbol";
+	font-size: 14px;
+	color: #333;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+html,
+body {
+	height: 100%;
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
+	-moz-scroll-behavior: smooth;
+	-o-scroll-behavior: smooth;
+	-ms-scroll-behavior: smooth;
+}
+
+body {
+	color: #333333;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin-bottom: 15px;
+	margin: 0 0 10px;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", sans-serif;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+.bold,
+strong {
+	font-weight: 700;
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+}
+
+li {
+	display: block;
+	float: left;
+}
+.btn {
+	outline: none;
+	height: 50px;
+	line-height: 18px;
+	padding: 15px 50px;
+}
+.btn-success {
+	border-color: #6ace26;
+	background-color: #6ace26;
+}
+.promotion.bg-primary {
+	background-color: #2c76dc !important;
+	line-height: 45px;
+}
+
+/* Accordian CSS Style */
+.accordion {
+	position: relative;
+}
+.accordion .card {
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 25px;
+}
+.accordion .card-header {
+	background-color: #fff;
+	border-bottom: 0;
+}
+.accordion .card-header button {
+	padding: 0;
+}
+.btn-link:hover,
+.btn-link:focus {
+	text-decoration: none;
+	box-shadow: none;
+}
+.accordion .card-header button i {
+	padding-right: 20px;
+}
+.card-body {
+	padding-left: 50px;
+	padding-top: 0;
+}
+
+/* Base Layout CSS Style */
+.section {
+	padding: 100px 0;
+}
+.btn {
+	outline: none;
+	height: 50px;
+	line-height: 18px;
+	padding: 15px 50px;
+}
+.btn-success {
+	border-color: #6ace26;
+	background-color: #6ace26;
+}
+.promotion.bg-primary {
+	background-color: #2c76dc !important;
+	line-height: 45px;
+}

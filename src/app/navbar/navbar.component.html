@@ -1,0 +1,107 @@
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light flex-column">
+	<div class="container">
+		<a class="navbar-brand" routerLink="/">
+			<i class="fas fa-th text-primary"></i>
+			<span>bluehost</span>
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecondary"
+			aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<ul class="navbar-nav ml-auto d-none d-lg-flex">
+			<li class="nav-item">
+				<a class="nav-link" routerLink="/chat">
+					<i class="fas fa-comment-alt"></i>
+					<span>Chat</span>
+				</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" routerLink="" id="navbarDropdown" role="button"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<i class="fas fa-mobile-alt"></i>
+					<span>Call</span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" routerLink="">Item 1</a>
+					<a class="dropdown-item" routerLink="">Item 2</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" routerLink="/login">
+					<i class="fas fa-user"></i>
+					<span>Login</span>
+				</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" routerLink="" id="navbarDropdown" role="button"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<i class="fas fa-globe-asia"></i>
+					<span>USD</span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" routerLink="">USD</a>
+					<a class="dropdown-item" routerLink="">GBP</a>
+					<a class="dropdown-item" routerLink="">UAE</a>
+					<a class="dropdown-item" routerLink="">PKR</a>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<div id="navbarSecondary" class="collapse navbar-collapse">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" routerLink="" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						WordPress
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" routerLink="/wordpress-hosting">WordPress Hosting</a>
+						<a class="dropdown-item" routerLink="/managed-wordpress">
+							Managed WordPress
+							<span class="badge badge-primary">New</span>
+						</a>
+						<a class="dropdown-item" routerLink="/eCommerce">eCommerce</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" routerLink="" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Hosting
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" routerLink="/shared-hosting">Shared Hosting</a>
+						<a class="dropdown-item" routerLink="/vps-hosting">VPS Hosting</a>
+						<a class="dropdown-item" routerLink="/dedicated-hosting">Dedicated Hosting</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/domains">Domains</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" routerLink="" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Professional Services
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" routerLink="/services">Services</a>
+						<a class="dropdown-item" routerLink="/blue-sky"></a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/email">Email</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/affiliates">Affiliates</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" routerLink="/data-table">Data Table</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

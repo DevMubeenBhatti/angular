@@ -1,0 +1,127 @@
+/* tab */
+.tab-content {
+	color: #3575d3;
+}
+.nav-tabs .nav-link {
+	font-size: 24px;
+	color: #5b5b5b;
+	padding: 10px 50px;
+}
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	border: none;
+	border-bottom: 3px solid #3575d3;
+	font-size: 24px;
+	color: #3575d3;
+}
+.page-header {
+	/* background: url("../images/page-header-about.jpg"); */
+	background: url("../../assets/images/page-header-about.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.bg-primary {
+	background-color: #3575d3 !important;
+}
+.about-page .nav.nav-tabs {
+	background-color: #3575d3;
+}
+.about-page .nav-link {
+	font-size: 18px;
+	color: #fff;
+	border-radius: 0;
+	font-weight: 500;
+}
+.about-page .nav-link:hover,
+.about-page .nav-link:active,
+.about-page .nav-link:focus,
+.about-page .nav-link:focus-within,
+.about-page .nav-link:visited {
+	border-color: transparent;
+}
+.about-page .nav-link.active::after {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: -6px;
+	left: 60px;
+	right: auto;
+	border-top: 18px solid transparent;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-bottom: 18px solid #fff;
+}
+.about-page .nav-link.active {
+	font-size: 18px;
+	color: #fff;
+	position: relative;
+}
+.divider {
+	height: 1px;
+	width: 940px;
+	background-color: #eee;
+	margin: 10px auto;
+}
+.btn-outline-primary {
+	border-color: #3575d3;
+	color: #3575d3;
+}
+.media-img img {
+	width: 70%;
+	margin: 50px auto;
+}
+.aboutUs-contact.border-section {
+	background-color: #edf4f9;
+	padding: 50px 0;
+	border-bottom: 1px solid #3575d3;
+	border-top: 1px solid #3575d3;
+}
+.aboutUs-contact p {
+	padding-left: 45px;
+}
+
+.aboutUs-contact a {
+	margin-left: 45px;
+}
+
+.press {
+	text-align: center;
+	margin: 10px auto;
+	width: 300px;
+	margin: 20px auto;
+}
+.press h4 {
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+.press span {
+	color: gray;
+}
+.press-releases {
+	background-color: #f9f9f9;
+}
+.press-releases .card-body {
+	padding: 30px;
+}
+.press-releases .press-date small {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.press-releases .press-date {
+	color: #000;
+	font-size: 30px;
+}
+.press-releases .press-link {
+	padding: 15px 10px;
+}
+.press-releases .press-link a {
+	text-decoration: none;
+	color: #3575d3;
+	font-size: 20px;
+	font-weight: 400;
+	vertical-align: middle;
+}

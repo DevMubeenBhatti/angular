@@ -1,0 +1,51 @@
+/*========================
+ Terms and Condition Page 
+=========================*/
+.terms-heading {
+	min-height: 60px;
+}
+.terms-heading h1 {
+	color: #5f92dc;
+	font-weight: 300;
+	font-size: 36px;
+}
+.link-background {
+	background-color: #edf4f9;
+	border-bottom: 1px solid #3575d3;
+	border-top: 1px solid #3575d3;
+	min-height: 300px;
+}
+.link-background h2 {
+	font-size: 36px;
+	color: #5f92dc;
+	font-weight: 400;
+}
+.links-deatils .list-group-item {
+	padding: 0 15px;
+	font-size: 18px;
+	text-align: left;
+	border: none;
+	background: transparent;
+}
+.links-deatils .list-group-item a {
+	color: #5f92dc !important;
+}
+
+/* Polices-list */
+.Polices-list {
+	margin: 50px 100px;
+	text-align: left;
+}
+.Polices-list h3 {
+	font-size: 24px;
+	color: #3575d3;
+	font-weight: 300;
+}
+.Polices-list p {
+	margin-top: 2px;
+	color: #5b5b5b;
+}
+.disclaimers {
+	min-height: 60px;
+	line-height: 3px;
+}

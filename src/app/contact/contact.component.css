@@ -1,0 +1,67 @@
+/* Page Contact */
+section {
+	min-height: 550px;
+}
+.contact-background {
+	background-image: url("../../assets/images/people-working-2880.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+/* Media */
+
+.mediaBackground-a {
+	background-image: url("../../assets/images/walking-with-phone-1089.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mediaBackground-b {
+	background-image: url("../../assets/images/man-with-binoculars-512.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.mediaBackground-c {
+	background-image: url("../../assets/images/woman-blue-hair-446.png");
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 70px 0;
+}
+.mainPhone-bg {
+	background-image: url("../../assets/images/girl-on-phone-2880.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 100px 0;
+	height: 200px;
+}
+
+.img-responsive img {
+	width: 100%;
+	height: auto;
+}
+
+.mediaLink h1,
+.mediaLink h5,
+.mediaLink a {
+	color: #3575d3;
+}
+.mediaLink ul {
+	list-style-type: none;
+}
+.mediaLink li {
+	margin-bottom: 15px;
+	display: inline-block;
+}
+.social-icons-contact {
+	margin: 0;
+	padding: 0;
+}
+
+.social-icons-contact i {
+	font-size: 25px;
+	margin: 12px;
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;500;700&display=swap");
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+html,
+body {
+	height: 100%;
+	scroll-behavior: smooth;
+	-webkit-scroll-behavior: smooth;
+	-moz-scroll-behavior: smooth;
+	-o-scroll-behavior: smooth;
+	-ms-scroll-behavior: smooth;
+}
+
+body {
+	color: #333333;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin-bottom: 15px;
+	margin: 0 0 10px;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Oswald", sans-serif;
+	line-height: normal;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+.bold,
+strong {
+	font-weight: 700;
+}
+
+ul {
+}
+
+ol {
+}
+
+/* Base Layout CSS Style */
+.section {
+	min-height: 100vh;
+	padding: 100px 0;
+}
+
+/* Carousel CSS Style */
+.carousel-caption {
+	padding-top: 100px;
+	top: 0;
+	bottom: 0;
+	text-align: left;
+}
+
+/* Price/Package CSS Style */
+.package {
+	position: relative;
+}
+.package .card-deck {
+	margin-top: 46px;
+}
+.package .card {
+	border: 0;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+	text-align: center;
+}
+.package .card-header {
+	background-color: #007bff;
+	color: #ffffff;
+	margin-top: -46px;
+	padding: 10px 15px;
+}
+.package .card-title,
+.package .card-price {
+	color: #007bff;
+	font-weight: 400;
+}
+.package .card-body {
+}
+.package .btn {
+	margin: 15px 0;
+	width: 150px;
+}
+.package .card-footer {
+}
+
+.package .list-group-item {
+	padding: 5px 15px;
+}

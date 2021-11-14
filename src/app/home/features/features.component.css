@@ -1,0 +1,44 @@
+/* tab */
+.tab-content {
+	color: #3575d3;
+}
+.nav-tabs .nav-link {
+	font-size: 24px;
+	color: #5b5b5b;
+	padding: 10px 50px;
+}
+.nav-tabs .nav-link.active {
+	background-color: transparent;
+	border: none;
+	border-bottom: 3px solid #3575d3;
+	font-size: 24px;
+	color: #3575d3;
+}
+
+/* Features */
+
+.domain-item {
+	justify-content: space-between;
+	padding: 0;
+	text-align: left;
+	padding: 30px 5px;
+}
+.domain-item br {
+	margin: 15px 0;
+}
+.domain-item a {
+	font-size: 20px;
+	color: #3575d3;
+}
+
+.domain-item a i {
+	margin-right: 5px;
+	font-size: 30px;
+	color: #3575d3;
+}
+
+.domain-item p {
+	line-height: 25px;
+	padding-left: 40px;
+	color: #5b5b5b;
+}
